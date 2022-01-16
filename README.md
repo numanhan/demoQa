@@ -1,26 +1,16 @@
 # Demo QA Project
 ###### 1.  How to run these tests locally?
 
-First of all, you need to clone this project that you are going to run to your local environment.
-
-```git clone https://github.com/numanhan/demoQa.git ```
-
-You can open the project using any IDE. Intellij IDEA is generally recommended for Maven projects. 
-
-You can download from here : https://www.jetbrains.com/idea/download/#section=mac
-
-You need to open the project in the IDE and ensure that the pom.xml files are indexed. 
-
-This project is coded with Selenium and Gauge using Maven and Java.
-
-Check here : https://docs.gauge.org/
-
-After the required dependencies of the project are indexed, click on the specs folder in the project directory.
-
-Gauge projects often encounter an error after initial setup. To fix this error, you can close the project and open it again. When you act, you will not encounter any errors in the specs files. When you click the Run button, our tests will run.
-
-Specs folders contain all test steps in BDD format.
-
+- First of all, you need to clone this project that you are going to run to your local environment.
+- ```git clone https://github.com/numanhan/demoQa.git ```
+- You can open the project using any IDE. Intellij IDEA is generally recommended for Maven projects. 
+- You can download from here : https://www.jetbrains.com/idea/download/#section=mac
+- You need to open the project in the IDE and ensure that the pom.xml files are indexed. 
+- This project is coded with Selenium and Gauge using Maven and Java.
+- Check here : https://docs.gauge.org/
+- After the required dependencies of the project are indexed, click on the specs folder in the project directory.
+- Gauge projects often encounter an error after initial setup. To fix this error, you can close the project and open it again. When you act, you will not encounter any errors in the specs files. When you click the Run button, our tests will run.
+- Specs folders contain all test steps in BDD format.
 
 2. ######  How to run the test in CI/CD pipeline? 
   - Run the command ```brew install jenkins-lts``` on your terminal.
@@ -39,7 +29,7 @@ I preferred to use the BDD structure while creating my scenarios. BDD allows us 
 
 ###### 4. Why are they the most important? 
  The most important ones are;
-1 - Creating scenarios based on user behavior
-2 - Avoiding code duplication using the Page Object Model
-3 - Leaving memory as light as possible, avoiding code repetition
-4 - To leave a clean code structure for people who may be involved in the project later on and to help them understand
+ - Creating scenarios based on user behavior
+ - Avoiding code duplication using the Page Object Model
+ - Leaving memory as light as possible, avoiding code repetition
+ - To leave a clean code structure for people who may be involved in the project later on and to help them understand
