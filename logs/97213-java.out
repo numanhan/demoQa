@@ -1,0 +1,38 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 1074milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1074"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.passaword' and 'com.spritecloud.test.RegistirationTest.passaword'"}
+{"logLevel":"debug","message":"Found User types password in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.firstName' and 'com.spritecloud.test.RegistirationTest.firstName'"}
+{"logLevel":"debug","message":"Found User types first name in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.lastName' and 'com.spritecloud.test.RegistirationTest.lastName'"}
+{"logLevel":"debug","message":"Found User types last name in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.before' and 'com.spritecloud.test.RegistirationTest.before'"}
+{"logLevel":"debug","message":"Found User opens Website in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.newUser' and 'com.spritecloud.test.RegistirationTest.newUser'"}
+{"logLevel":"debug","message":"Found User clicks new user button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.userName' and 'com.spritecloud.test.RegistirationTest.userName'"}
+{"logLevel":"debug","message":"Found User types username in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.login' and 'com.spritecloud.test.RegistirationTest.login'"}
+{"logLevel":"debug","message":"Found User clicks Login in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.bookStore' and 'com.spritecloud.test.RegistirationTest.bookStore'"}
+{"logLevel":"debug","message":"Found User opens Book Store in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tUser types password : public void passaword()"}
+{"logLevel":"debug","message":"\tUser opens Book Store : public void bookStore()"}
+{"logLevel":"debug","message":"\tUser types first name : public void firstName()"}
+{"logLevel":"debug","message":"\tUser types username : public void userName()"}
+{"logLevel":"debug","message":"\tUser types last name : public void lastName()"}
+{"logLevel":"debug","message":"\tUser clicks Login : public void login()"}
+{"logLevel":"debug","message":"\tUser clicks new user button : public void newUser()"}
+{"logLevel":"debug","message":"\tUser opens Website : public void before()"}
+{"logLevel":"debug","message":"started gRPC server on port 57647"}
+{"logLevel":"info","message":"Listening on port:57647"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

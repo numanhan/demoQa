@@ -1,0 +1,75 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 1098milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1098"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.lastName' and 'com.spritecloud.test.RegistirationTest.lastName'"}
+{"logLevel":"debug","message":"Found User types last name in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.passaword' and 'com.spritecloud.test.RegistirationTest.passaword'"}
+{"logLevel":"debug","message":"Found User types password in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.BookStoreSearchTest.searchBtn' and 'com.spritecloud.test.BookStoreSearchTest.searchBtn'"}
+{"logLevel":"debug","message":"Found User clicks search button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.BookStoreSearchTest.searchBook' and 'com.spritecloud.test.BookStoreSearchTest.searchBook'"}
+{"logLevel":"debug","message":"Found User searchs book in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.before' and 'com.spritecloud.test.RegistirationTest.before'"}
+{"logLevel":"debug","message":"Found User opens Website in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.recaptchaControl' and 'com.spritecloud.test.RegistirationTest.recaptchaControl'"}
+{"logLevel":"debug","message":"Found User confirm that user not robot in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.registiration' and 'com.spritecloud.test.RegistirationTest.registiration'"}
+{"logLevel":"debug","message":"Found User clicks Register button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.login' and 'com.spritecloud.test.RegistirationTest.login'"}
+{"logLevel":"debug","message":"Found User clicks Login in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.userName' and 'com.spritecloud.test.RegistirationTest.userName'"}
+{"logLevel":"debug","message":"Found User types username in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.BookStoreSearchTest.before' and 'com.spritecloud.test.BookStoreSearchTest.before'"}
+{"logLevel":"debug","message":"Found User opens Book Store Website in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.firstName' and 'com.spritecloud.test.RegistirationTest.firstName'"}
+{"logLevel":"debug","message":"Found User types first name in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.BookStoreSearchTest.bookStore' and 'com.spritecloud.test.BookStoreSearchTest.bookStore'"}
+{"logLevel":"debug","message":"Found User should able to open Book Store in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.newUser' and 'com.spritecloud.test.RegistirationTest.newUser'"}
+{"logLevel":"debug","message":"Found User clicks new user button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.BookStoreSearchTest.isBook' and 'com.spritecloud.test.BookStoreSearchTest.isBook'"}
+{"logLevel":"debug","message":"Found User compares book name in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.spritecloud.test.RegistirationTest.bookStore' and 'com.spritecloud.test.RegistirationTest.bookStore'"}
+{"logLevel":"debug","message":"Found User opens Book Store in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tUser types password : public void passaword()"}
+{"logLevel":"debug","message":"\tUser compares book name : public void isBook()"}
+{"logLevel":"debug","message":"\tUser opens Book Store : public void bookStore()"}
+{"logLevel":"debug","message":"\tUser types username : public void userName()"}
+{"logLevel":"debug","message":"\tUser opens Book Store Website : public void before()"}
+{"logLevel":"debug","message":"\tUser should able to open Book Store : public void bookStore()"}
+{"logLevel":"debug","message":"\tUser clicks search button : public void searchBtn()"}
+{"logLevel":"debug","message":"\tUser opens Website : public void before()"}
+{"logLevel":"debug","message":"\tUser confirm that user not robot : public void recaptchaControl()"}
+{"logLevel":"debug","message":"\tUser searchs book : public void searchBook()"}
+{"logLevel":"debug","message":"\tUser types first name : public void firstName()"}
+{"logLevel":"debug","message":"\tUser types last name : public void lastName()"}
+{"logLevel":"debug","message":"\tUser clicks Login : public void login()"}
+{"logLevel":"debug","message":"\tUser clicks new user button : public void newUser()"}
+{"logLevel":"debug","message":"\tUser clicks Register button : public void registiration()"}
+{"logLevel":"debug","message":"started gRPC server on port 53242"}
+{"logLevel":"info","message":"Listening on port:53242"}
+Starting ChromeDriver 95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}) on port 33211
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 15, 2022 10:19:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'User opens Book Store Website' using 'class com.spritecloud.test.BookStoreSearchTest.before"}
+2022-01-15 22:19:44 INFO  Log4j:20 - User succesfully opened the main website
+{"logLevel":"debug","message":"Executing 'User should able to open Book Store' using 'class com.spritecloud.test.BookStoreSearchTest.bookStore"}
+2022-01-15 22:19:44 INFO  Log4j:20 - User succesfully opened the Book Store Page
+{"logLevel":"debug","message":"Executing 'User searchs book' using 'class com.spritecloud.test.BookStoreSearchTest.searchBook"}
+2022-01-15 22:19:49 INFO  Log4j:20 - User able to search book
+{"logLevel":"debug","message":"Executing 'User clicks search button' using 'class com.spritecloud.test.BookStoreSearchTest.searchBtn"}
+2022-01-15 22:19:49 INFO  Log4j:20 - User searchs book
+{"logLevel":"debug","message":"Executing 'User compares book name' using 'class com.spritecloud.test.BookStoreSearchTest.isBook"}
+2022-01-15 22:19:50 INFO  Log4j:20 - Book name matched with searched book name
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
