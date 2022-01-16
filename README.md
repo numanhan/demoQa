@@ -33,3 +33,6 @@ I preferred to use the BDD structure while creating my scenarios. BDD allows us 
  - Avoiding code duplication using the Page Object Model
  - Leaving memory as light as possible, avoiding code repetition
  - To leave a clean code structure for people who may be involved in the project later on and to help them understand
+
+###### Calliope.pro link
+ - https://app.calliope.pro/companies/1181
